@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "K/y4FBGjx3FImo621KB/lztflSlgtK8R2u9TkBYanAZjcnB5AXnKJwpLYfFCOf/IeZ1SNhkC3Jq/eVm7Mo/ing==",
+  "success": true,
+  "projectFilePath": "D:\\school-test-app\\WebApp\\WebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arina\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Arina\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Arina\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Arina\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "C:\\Users\\Arina\\.nuget\\packages\\system.reactive\\4.4.1\\system.reactive.4.4.1.nupkg.sha512",
+    "C:\\Users\\Arina\\.nuget\\packages\\system.reactive.linq\\4.4.1\\system.reactive.linq.4.4.1.nupkg.sha512",
+    "C:\\Users\\Arina\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

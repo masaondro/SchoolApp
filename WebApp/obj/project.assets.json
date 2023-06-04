@@ -1,0 +1,381 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.OpenApi/1.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/6.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OpenApi": "1.2.3"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/6.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "6.5.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/6.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "System.Reactive/4.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/_._": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.0/System.Reactive.targets": {}
+        }
+      },
+      "System.Reactive.Linq/4.4.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Reactive": "4.4.1",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Reactive.Linq.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reactive.Linq.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.OpenApi/1.2.3": {
+      "sha512": "Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
+      "type": "package",
+      "path": "microsoft.openapi/1.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Microsoft.OpenApi.dll",
+        "lib/net46/Microsoft.OpenApi.pdb",
+        "lib/net46/Microsoft.OpenApi.xml",
+        "lib/netstandard2.0/Microsoft.OpenApi.dll",
+        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
+        "lib/netstandard2.0/Microsoft.OpenApi.xml",
+        "microsoft.openapi.1.2.3.nupkg.sha512",
+        "microsoft.openapi.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.Swagger/6.5.0": {
+      "sha512": "XWmCmqyFmoItXKFsQSwQbEAsjDKcxlNf1l+/Ki42hcb6LjKL8m5Db69OTvz5vLonMSRntYO1XLqz0OP+n3vKnA==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swagger/6.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net5.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net5.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net6.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net6.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/net7.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net7.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net7.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.swagger.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/6.5.0": {
+      "sha512": "Y/qW8Qdg9OEs7V013tt+94OdPxbRdbhcEbw4NiwGvf4YBcfhL/y7qp/Mjv/cENsQ2L3NqJ2AOu94weBy/h4KvA==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggergen/6.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggergen.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/6.5.0": {
+      "sha512": "OvbvxX+wL8skxTBttcBsVxdh73Fag4xwqEU2edh4JMn7Ws/xJHnY/JB1e9RoCb6XpDxUF3hD9A0Z1lEUx40Pfw==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggerui/6.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggerui.nuspec"
+      ]
+    },
+    "System.Reactive/4.4.1": {
+      "sha512": "iSTPeWR9HJhGoNV4WhVlvofuiTjpok1i4E3LPgMdbMqf3jKhFlT9HAlO32lb52NLppWC/4dZQFfUzTytvyXBmw==",
+      "type": "package",
+      "path": "system.reactive/4.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/netcoreapp3.0/System.Reactive.dll",
+        "build/netcoreapp3.0/System.Reactive.targets",
+        "build/netcoreapp3.0/System.Reactive.xml",
+        "buildTransitive/netcoreapp3.0/System.Reactive.targets",
+        "lib/net46/System.Reactive.dll",
+        "lib/net46/System.Reactive.xml",
+        "lib/netcoreapp3.0/_._",
+        "lib/netstandard2.0/System.Reactive.dll",
+        "lib/netstandard2.0/System.Reactive.xml",
+        "lib/uap10.0.16299/System.Reactive.dll",
+        "lib/uap10.0.16299/System.Reactive.pri",
+        "lib/uap10.0.16299/System.Reactive.xml",
+        "lib/uap10.0/System.Reactive.dll",
+        "lib/uap10.0/System.Reactive.pri",
+        "lib/uap10.0/System.Reactive.xml",
+        "system.reactive.4.4.1.nupkg.sha512",
+        "system.reactive.nuspec"
+      ]
+    },
+    "System.Reactive.Linq/4.4.1": {
+      "sha512": "wyOVuUyHmPV667REPwcZjFjOlRLX6qSGVcXMye0qUqBAWFB3bu1RO1XLGWZTnf0d67DQHV69kw7tAtTh+4EYyQ==",
+      "type": "package",
+      "path": "system.reactive.linq/4.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/System.Reactive.Linq.dll",
+        "lib/net46/System.Reactive.Linq.xml",
+        "lib/netstandard2.0/System.Reactive.Linq.dll",
+        "lib/netstandard2.0/System.Reactive.Linq.xml",
+        "lib/uap10.0/System.Reactive.Linq.dll",
+        "lib/uap10.0/System.Reactive.Linq.pri",
+        "lib/uap10.0/System.Reactive.Linq.xml",
+        "system.reactive.linq.4.4.1.nupkg.sha512",
+        "system.reactive.linq.nuspec"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "sha512": "zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Threading.Tasks.Extensions.dll",
+        "lib/net461/System.Threading.Tasks.Extensions.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Swashbuckle.AspNetCore.Swagger >= 6.5.0",
+      "Swashbuckle.AspNetCore.SwaggerGen >= 6.5.0",
+      "Swashbuckle.AspNetCore.SwaggerUI >= 6.5.0",
+      "System.Reactive.Linq >= 4.4.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Arina\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\school-test-app\\WebApp\\WebApp.csproj",
+      "projectName": "WebApp",
+      "projectPath": "D:\\school-test-app\\WebApp\\WebApp.csproj",
+      "packagesPath": "C:\\Users\\Arina\\.nuget\\packages\\",
+      "outputPath": "D:\\school-test-app\\WebApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Arina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": {
+            "target": "Package",
+            "version": "[6.5.0, )"
+          },
+          "Swashbuckle.AspNetCore.SwaggerGen": {
+            "target": "Package",
+            "version": "[6.5.0, )"
+          },
+          "Swashbuckle.AspNetCore.SwaggerUI": {
+            "target": "Package",
+            "version": "[6.5.0, )"
+          },
+          "System.Reactive.Linq": {
+            "target": "Package",
+            "version": "[4.4.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
